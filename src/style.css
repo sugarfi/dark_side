@@ -50,3 +50,9 @@ html, body {
     transform-origin: 0 0;
     transform: translateY(-50%) perspective(100px) rotateY(-15deg);
 }
+
+@media (max-width: 700px) {
+    #input {
+        transform: rotate(-10deg);
+    }
+}
