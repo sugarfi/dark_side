@@ -1,0 +1,52 @@
+html, body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#prism {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+
+#input {
+    height: 2px;
+    width: 50%;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: rotate(-10deg) translateY(50px);
+}
+
+#output {
+    background-image:
+        linear-gradient(red, red),
+        linear-gradient(orange, orange),
+        linear-gradient(yellow, yellow),
+        linear-gradient(green, green),
+        linear-gradient(blue, blue),
+        linear-gradient(indigo, indigo),
+        linear-gradient(purple, purple);
+    background-position:
+        0px 0px,
+        0px 10px,
+        0px 20px,
+        0px 30px,
+        0px 40px,
+        0px 50px,
+        0px 60px;
+    background-size: 100% 10px;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 70px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform-origin: 0 0;
+    transform: translateY(-50%) perspective(100px) rotateY(-15deg);
+}
