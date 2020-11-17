@@ -20,7 +20,8 @@ html, body {
     position: absolute;
     top: 50%;
     left: 0;
-    transform: rotate(-10deg) translateY(100%);
+    transform: rotate(-10deg);
+    transform-origin: 100% 100%;
 }
 
 #output {
